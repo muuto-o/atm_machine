@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Oswald&family=Ubuntu:wght@700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #75a58b;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav{
+    margin-top: 40px;
+    text-align: center;
+}
+
+h1{
+    margin: 10px;
+}
+
+.hide{
+    display: none;
+}
+
+.btn{
+    background-color: #05efbc;
+    color: #16314d;
+
+    border: none;
+    border-radius: 5px;
+
+    width: 98%;
+    height: 45px;
+    padding: 5px;
+    margin: 5px;
+    
+    align-items: center;
+    cursor: pointer;
+}
+
+.center{
+    width: 60%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;  
+}
+
+.container{
+    width: 40%;
+    height: 86vh;
+    background-color: #16314d;
+    margin: 34px auto 0;
+    position: relative;
+}
+
+/* 
+
+LOGIN SECTION
+
+*/
+
+input{
+    width: 100%;
+    height: 40px;
+    margin-top: 50px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.login-btn__container{
+    margin-top: 30px;
+    width: 100%;
+}
+
+
+/* 
+
+MAIN MENU SECTION
+
+*/
+
+.main-menu-section h1{
+    margin-bottom: 40px;
+
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 15px;
+    padding: 10px;
+}
+
+/* 
+
+INCOME MENU
+
+*/
+
+.income-btn__container{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    margin-top: 20px;
+}
