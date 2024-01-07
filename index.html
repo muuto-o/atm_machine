@@ -13,53 +13,68 @@
     <nav>
         <h1>ATM MACHINE</h1>
     </nav>
-    <div class="container">
 
-        <div id="login" class="login-section center">
-            <h1>Нэвтрэх</h1>
-            <input type="text" placeholder="Картын дугаараа оруулна уу.">  <br>
-            <input type="password" placeholder="Картын нууц дугаараа оруулна уу.">  <br>
 
-            <div class="login-btn__container">
-                <button class="login-btn btn">Нэвтрэх</button>
+    <div class="down-body">
+        <div class="card">
+
+        </div>
+        <div class="container">
+    
+            <div id="login" class="login-section center">
+                <h1>Нэвтрэх</h1>
+                <input type="text" placeholder="Картын дугаараа оруулна уу.">  <br>
+                <input type="password" placeholder="Картын нууц дугаараа оруулна уу.">  <br>
+    
+                <div class="login-btn__container">
+                    <button class="login-btn btn">Нэвтрэх</button>
+                </div>
+            </div>
+    
+            <div class="main-menu-section center hide">
+                <h1>Үндсэн хэсэг</h1>
+    
+                <div class="balance"> Үлдэгдэл : &nbsp&nbsp<span class="balance-value">0</span></div>
+                <div class="buttons">
+                    <div class="income-btn btn">Орлого хийх</div>
+                    <div class="expense-btn btn">Зарлага гаргах</div>
+                    <div class="history-btn btn">Гүйлгээний түүх</div>
+                    <div class="document-btn btn">Баримт авах</div>
+                    <div class="exit-btn btn">Гарах</div>
+                </div>
+                
+            </div>
+    
+            <div class="income-section center hide">
+                <h1>Орлого хийх</h1>
+                <input type="text" class="income__value" placeholder="Орлого хийх мөнгөн дүнгээ оруулна уу.">  <br>
+    
+                <div class="income-btn__container">
+                    <button class="income-btn__confirm btn">Орлого хийх</button>
+                    <button class="income-back-btn btn">Буцах</button>
+                </div>
+            </div>
+    
+    
+            <div class="expense-section center hide">
+                <h1>Зарлага гаргах</h1>
+                    <input type="text" class="expense__value" placeholder = "Зарлага хийх мөнгөн дүнгээ оруулна уу.">  <br>
+    
+                <div class="expense-btn__container">
+                    <button class="expense-btn__confirm btn">Мөнгө авах</button>
+                    <button class="expense-back-btn btn">Буцах</button>
+                </div>
             </div>
         </div>
-
-        <div class="main-menu-section center hide">
-            <h1>Үндсэн хэсэг</h1>
-
-            <div class="balance"> Үлдэгдэл : &nbsp&nbsp<span class="balance-value">0</span></div>
-            <div class="buttons">
-                <div class="income-btn btn">Орлого хийх</div>
-                <div class="expense-btn btn">Мөнгө шилжүүлэх</div>
-                <div class="history-btn btn">Гүйлгээний түүх</div>
-                <div class="document-btn btn">Баримт авах</div>
-                <div class="exit-btn btn">Гарах</div>
+        <div class="transfer-history">
+            <div class="transfer-history__heading">
+                <h3>Гүйлгээний түүх</h3>
             </div>
-            
-        </div>
-
-        <div class="income-section center hide">
-            <h1>Орлого хийх</h1>
-            <input type="text" class="income__value" placeholder="Орлого хийх мөнгөн дүнгээ оруулна уу.">  <br>
-
-            <div class="income-btn__container">
-                <button class="income-btn__confirm btn">Орлого хийх</button>
-                <button class="income-back-btn btn">Буцах</button>
-            </div>
-        </div>
-
-
-        <div class="expense-section center hide">
-            <h1>Зарлага хийх</h1>
-                <input type="text" class="expense__value" placeholder = "Зарлага хийх мөнгөн дүнгээ оруулна уу.">  <br>
-
-            <div class="expense-btn__container">
-                <button class="expense-btn__confirm btn">Орлого хийх</button>
-                <button class="expense-back-btn btn">Буцах</button>
+            <div class="transfer-history__list">
             </div>
         </div>
     </div>
+    
 
     
 
